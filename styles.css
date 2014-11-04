@@ -234,3 +234,23 @@ article.body {
 	font-family: 'PT Serif', serif;
 	padding-top: 2vw;
 }
+
+#figures {
+  text-align: center;
+}
+
+figure {
+  display: inline-block;
+}
+
+.detailImage {
+  width: 250px;
+}
+
+#results {
+  text-align: center;
+}
+
+.graphImage {
+  width: 60%;
+}
