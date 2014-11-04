@@ -1,41 +1,46 @@
 @font-face {
-    font-family: Charis;
-    src: url(CharisSIL-R.ttf);
+    font-family: Georgia;
+    src: url(Georgia.ttf);
+}
+
+@font-face {
+    font-family: CodePro-R;
+    src: url(CodePro-R.ttf);
+}
+
+@font-face {
+    font-family: CodePro-L;
+    src: url(CodePro-L.ttf);
 }
 
 body {
 	/* background-image: url('bg.jpg'); */
-	background-color: #E8E8E8;
+	background-color: #FCFCFC;
 	font-family: Verdana, sans-serif; 
 	font-size:0.8em;
-}
-
-section, article {
-	margin-left:0px; 
-	padding-top:8px;
-}
-
-header{
-	width: 100%;
 }
 
 footer {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 10px;
-	position: absolute;
     right: 10px;
     bottom: 0;
     height: 20px;
     width: 100%;
     text-align: right;
 	margin:5px; 
-	padding:8px;
+	padding-bottom:0px;
 }
 
 header {
-	font-family: 'Charis', serif;
+	font-family: 'Georgia', serif;
 	width: 100%;
+}
+
+heading {
+	font-family: 'CodePro-L', sans-serif;
+	font-size: 2.5em;
 }
 
 nav li + li:before{
@@ -47,19 +52,10 @@ nav li + li:before{
 nav {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	background-color:rgba(0,0,0,0.5);
-	margin-top:12em;
+	background-color:rgba(0,0,0,0.6);
 	padding:3px;
 	text-decoration: none;
 	width: 100%;
-}
-
-#navheader {
-	font-family: 'Charis', serif;
-	font-size:26px;
-	font-size:1.5em;
-	vertical-align: bottom;
-	text-align: left;
 }
 
 nav li ul { 
@@ -72,22 +68,21 @@ nav ul menu {
 	text-decoration: none;
 	text-align: right;
 	vertical-align: middle;
-	padding-right: 30px;
+	padding-right: 8em;
 }
 
 nav ul menu li {
 	display:inline; 
-	margin-left:8px;
+	margin-left:0.8em;
+	margin-right:0.2em;
 	text-decoration: none;
-	padding-right: 2em;
-	text-align: right;
 }
 
 nav ul li a {
 	display:inline; 
-	margin-left:8px;
+	margin-left:0.8em;
+	margin-right:0.2em;
 	text-decoration: none;
-	padding-right: 0em;
 	text-align: center;
 }
  
@@ -130,27 +125,47 @@ a:link {
 	color: white;
 }
 
-h3.font_3 {
+h2.sans {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	line-height: 1.1em; 
 	text-align: center;
-	font-size: 3em;
+	font-size: 5em;
 }
 
-h1.font_0 {
+h2.serif {
+	font-family: 'Georgia', serif;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 5em;
 }
 
-#projecttitle {
+h3.serif {
+	font-family: 'Georgia', serif;
+	text-align: center;
+	font-size: 2em;
 	text-align: center;
 }
 
-#supervisedby {
-	text-align: center;
+section {
+	padding-top:8px;
 }
 
-#intro {
-	font-family: 'Charis', serif;
+section.header {
+	margin-top: 12em;
+}
+
+article.header {
+	color:  #171717;
+	text-align: center;
+	line-height: 3em;
+}
+
+article.body {
+	font-family: 'Georgia', serif;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #474747;
+	padding-top: 0.5em;
+	padding-left: 10em;
+	padding-right: 10em;
+	padding-bottom: 3em;
 }

@@ -1,58 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="styles.css">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-<link href='Georgia.ttf' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link href='Georgia.ttf' rel='stylesheet' type='text/css'>
+	<link href='CodePro-L.ttf' rel='stylesheet' type='text/css'>
+<script src="scripts/elements.js"></script>
 <title>Redbridge Mining Crew</title>
 <meta charset="utf-8">
-
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
-</script>
-<![endif]-->
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+	</script>
+	<![endif]-->
 </head>
 <body>
 
-<header>
-<nav>
-<ul>
-<menu>
-  <li><a href="index.html">HOME</a></li>
-  <li><a href="about.html">ABOUT</a></li>
-  <li><a href="alex.html">ALEX</a></li>
-  <li><a href="jamie.html">JAMIE</a></li>
-  <li><a href="mary.html">MARY</a></li>
-  <li><a href="">DEMO</a>
-  	<ul>
-  		<li><a href="demo_alex.html">ALEX</a></li>
-  		<li><a href="demo_jamie.html">JAMIE</a></li>
-  		<li><a href="demo_mary.html">MARY</a></li>
-  	</ul>
-  </li>
-  <li><a href="download.html">DOWNLOAD</a></li>
-</menu>
-</ul>
-</nav>
-</header>
+<section class="header"><script>
+	getHeader();
+</script></section>
 
-<section id="intro">
-<div id="projecttitle" class="Text">
-    <h3 class="font_3">Robot Morphology</h3>
-<h3 class="font_3">&amp;</h3>
-<h3 class="font_3">The Evolution of Co-operative Behaviour</h3>
-<h3 class="font_3">in Multi-Agent Systems</h3>
-</div>
-            <div id="supervisedby" class="Text">
-    <h1 class="font_0">SUPERVISED BY DR. GEOFF NITSCHKE</h1>
-</div>
+<section class="body">
+<article class="header">
+	<h2 class="sans">Experiment 1:</h2>
+	<h3 class="serif">Minimising  Morphologies  Needed  to  Evolve  Co-­operation</h3>
+</article>
 
+<article class="body">
+
+	<p>The aim is to find the minimal agent sensor configuration (morphology) that still results in
+	the evolution of effective co-operation. 8 morphologies were designed and tested by
+	evolving controllers using Genetic Programming on a series of 3 variants of the foraging
+	task.</p>
+	
+	<p><b>Experiment results showed that a morphology consisting of 3 ultrasonic sensors is
+the simplest and most effective morphology in our test tasks, followed closely by 8
+ultrasonic sensors.</b></p>
+
+</article>
 </section>
 
-
-<footer>
-<p>&copy; 2014 Redbridge Mining Crew. All rights reserved.</p>
-</footer>
+<script>
+	getFooter();
+</script>
 </body>
 </html>
 
