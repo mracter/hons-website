@@ -25,20 +25,45 @@
 
 <article class="body">
 
-	<p>Each robot was equipped with 7 sensors; 4 general-purpose proximity sensors and 3 special
+<p>This project studied the performance of robotic agent teams in a simulated co-
+operative foraging task, where the robotic agents did not communicate with each other using
+any explicit message-passing protocols. It aimed to investigate the impact of augmenting
+the strength of various environmental cues to the robotic agents on the evolutionary devel-
+opment of cooperative behaviour. Specifically, the research studied the effects of varying
+the linear transducer gain on typed sensors on the evolution of controllers that perform well
+on a cooperative foraging task. The motivation was that distorting the environmental cues
+to the robot, abstracted as complements of transducer gains on robotic agents, may aid in
+the evolution of co-operative behaviour.</p>
+
+<p>Each robot was equipped with 7 sensors; 4 general-purpose proximity sensors and 3 special
 sensors in front that could detect objects of one type only. Each special sensor was equipped
 with an additional linear gain parameter ∈ {0.5, 1.0. 1.5} that could make objects seem closer
 or further away than they actually were. Every possible 3-combination of the parameters was
-generated. The robot controllers were Artificial Neural Networks evolved with Neuro-
-Evolution of Augmenting Topologies in both genetically heterogeneous and homogeneous
-teams. The experiment measured the task performance of the sensory-distorted robots
-against a control on 3 foraging tasks, each requiring different levels of co-operation to
-achieve satisfactorily.</p>
+generated.</p>
 
-<p><b>Preliminary results showed that the best performing combination of linear parameters
-for each task and team composition consistently performed as well or better than the
-control. This suggests that empirical signal amplification may be a way to improve co-
-operative performance in the collective foraging task.</b></p>
+<p>The robot controllers were Artificial Neural Networks evolved with Neuro-
+Evolution of Augmenting Topologies in both genetically heterogeneous and homogeneous
+teams.</p>
+
+<p>The experiment measured the task performance of the sensory-distorted robots
+against a control on 3 foraging tasks, each requiring different levels of co-operation to
+achieve satisfactorily. All complements of linear parameters for the typed sensors were tested on 6 different task setups, shown in Figure 2.</p>
+
+
+<div class="datagrid"><table>
+<thead><tr><th></th><th>Homogeneous Teams</th><th>Heterogeneous Teams</th></tr></thead>
+<tbody><tr><td><b>Task 1</b></td><td>No Co-operation Required</td><td>No Co-operation Required</td></tr>
+<tr class="alt"><td><b>Task 2</b></td><td>Atruistic Co-operation</td><td>Atruistic Co-operation</td></tr>
+<tr><td><b>Task 3</b></td><td>Mandatory Co-operation</td><td>Mandatory Co-operation</td></tr>
+</tbody>
+</table></div>
+
+<p>Preliminary results showed that there was a significant fitness dropoff from homogeneous to heterogeneous teams. There was also a fitness dropoff that occurred as more co-operation was required for the task.</p>
+
+<p>The best performing combination of linear parameters for each task and team composition consistently performed as well or better than the
+control on all 6 task setups. This suggests that empirical signal amplification may be a way to improve co-operative performance in the collective foraging task. </p>
+
+<p>Additionally, the best performing combination of linear parameters was different for each task setup. This suggests that robotic agents may need to sense different types of objects differently according to the type of task they need to perform and/or the roles they play in the team.</p>
 
 </article>
 </section>
