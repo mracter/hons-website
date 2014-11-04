@@ -1,7 +1,7 @@
 function getHeader() {
 	document.write('\
 		<header>\
-		<heading></heading> \
+		<heading><h3 class="sans">Robot Morphology &amp; The Evolution of Co-operative Behaviour in Multi-Agent Systems</h2></heading> \
 		<nav>\
 		<ul>\
 		<menu>\
@@ -9,11 +9,11 @@ function getHeader() {
 		  <li><a href="alex.html" class="alex">ALEX</a></li>\
 		  <li><a href="mary.html" class="mary">MARY</a></li>\
 		  <li><a href="jamie.html" class="jamie">JAMIE</a></li>\
-		  <li><a href="" class="demo">DEMO</a>\
+		  <li><a href="#" class="demo">DEMO</a>\
 		  	<ul>\
 		  		<li><a href="demo_alex.html">ALEX</a></li>\
-		  		<li><a href="demo_jamie.html">JAMIE</a></li>\
 		  		<li><a href="demo_mary.html">MARY</a></li>\
+		  		<li><a href="demo_jamie.html">JAMIE</a></li>\
 		  	</ul>\
 		  </li>\
 		  <li><a href="download.html" class="download">DOWNLOAD</a></li>\
