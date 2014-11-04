@@ -1,10 +1,11 @@
 function getHeader() {
 	document.write('\
 		<header>\
-		<heading><h3 class="sans">Robot Morphology &amp; The Evolution of Co-operative Behaviour in Multi-Agent Systems</h2></heading> \
+		<heading>2014 HONOURS PROJECT IN EVOLUTIONARY COMPUTING</heading> \
 		<nav>\
 		<ul>\
 		<menu>\
+		<li class="navleft">IF YOU ARE<br></br>READING THIS,<br></br>I HATE YOU.</li>\
 		  <li><a href="index.html" class="about">ABOUT</a></li>\
 		  <li><a href="alex.html" class="alex">ALEX</a></li>\
 		  <li><a href="mary.html" class="mary">MARY</a></li>\

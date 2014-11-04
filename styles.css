@@ -1,6 +1,11 @@
 @font-face {
-    font-family: Georgia;
+    font-family: Georgia-R;
     src: url(Georgia.ttf);
+}
+
+@font-face {
+    font-family: Georgia-L;
+    src: url(Georgia-L.ttf);
 }
 
 @font-face {
@@ -15,7 +20,7 @@
 
 @font-face {
     font-family: Helvetica-UL;
-    src: url(Helvetica-UltraLight.otf);
+    src: url(Helvetica-UL.otf);
 }
 
 body {
@@ -25,7 +30,8 @@ body {
     background-position: center; 
 	background-color: #FCFCFC;
 	font-family: Verdana, sans-serif; 
-	font-size:0.8em;
+	font-size:0.8vw;
+	margin:0;
 }
 
 footer {
@@ -33,55 +39,71 @@ footer {
 	font-weight: 300;
 	font-size: 10px;
     height: 20px;
-    width: 100%;
     text-align: right;
-	margin:5px; 
 	padding-bottom:0px;
-	padding-right: 0em;
+	padding-right: 2vw;
 }
 
 header {
-	font-family: 'Georgia', serif;
+	font-family: 'Georgia-L', serif;
 	width: 100%;
 }
 
 heading {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.5em;
-	line-height: 0.1em;
+	font-weight: 300;
+	font-size: 2.16vw;
+	line-height: 1vw;
+	margin-left: 1vw;
+	padding-bottom: 2vw;
+}
+
+nav ul li.navleft {
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1.5vw;
+	color: white;
+	line-height: 0.7vw;
+	text-align: left;
+	margin-top: 0vw;
+	margin-left: 0vw;
+	list-style-type: none;
 }
 
 nav li + li:before{
 	font-family: 'Helvetica-UL', sans-serif;
     content: ' | ';
-   	font-size:2em;
+   	font-size:2.1vw;
     padding: 0 10px;
     color: white;
-    
 }
 
 nav {
 	font-family: 'Open Sans', sans-serif;
+	color: white;
 	font-weight: 300;
 	background-color:rgba(0,0,0,0.7);
-	padding:1.2em;
+	padding-top:1.2vw;
+	padding-bottom:1.2vw;
 	text-decoration: none;
-	width: 100%;
 }
 
 nav ul menu {
 	margin:0; 
 	padding:0;
+	font-size: 0.9vw;
 	text-decoration: none;
 	text-align: right;
-	vertical-align: middle;
-	padding-right: 10em;
+	vertical-align: center;
+	padding-right: 10vw;
 }
 
 nav ul menu li {
 	display:inline; 
-	margin-left:0.8em;
-	margin-right:0.2em;
+	margin-left:0.8vw;
+	margin-right:0.2vw;
+	vertical-align: center;
 	text-decoration: none;
 }
 
@@ -97,8 +119,8 @@ a:hover, a:visited, a:link {
 
 nav ul li a {
 	display:inline; 
-	margin-left:0.8em;
-	margin-right:0.2em;
+	margin-left:0.8vw;
+	margin-right:0.2vw;
 	text-decoration: none;
 	text-align: center;
 }
@@ -136,54 +158,80 @@ body.download a.download:link {
 h2.sans {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	text-align: center;
-	font-size: 5em;
+	font-size: 5vw;
+}
+
+h2.sans-light {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 3.5vw;
+}
+
+h3.sans {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 2vw;
+}
+
+h3.sans-light {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1.5vw;
+	line-height: 1.5vw;
 }
 
 h2.serif {
-	font-family: 'Georgia', serif;
-	text-align: center;
-	font-size: 5em;
+	font-family: 'Georgia-R', serif;
+	font-size: 5vw;
+}
+
+h2.serif-light {
+	font-family: 'Georgia-L', serif;
+	font-size: 5vw;
 }
 
 h3.serif {
-	font-family: 'Georgia', serif;
-	text-align: center;
-	font-size: 2em;
-	text-align: center;
+	font-family: 'Georgia-R', serif;
+	font-size: 2vw;
+}
+
+h3.serif-light {
+	font-family: 'Georgia-L', serif;
+	font-size: 2vw;
 }
 
 section {
-	padding-top:8px;
+	padding-top:1vw;
 }
 
 section.header {
-	margin-top: 8em;
+	margin-top: 6vw;
 }
 
 section.body {
-
+	background-color:rgba(255,255,255,0.4);
+	font-size: 1.2vw;
+	line-height: 1.5vw;
+	color: #474747;
+	padding-top: 2vw;
+	padding-bottom: 3vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	margin-top: 5vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-bottom: 3vw;
 }
 
 article.header {
 	color:  #171717;
 	text-align: center;
-	line-height: 4em;
-	padding-left: 10em;
-	padding-right: 10em;
+	line-height: 0.5vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
 }
 
 article.body {
-	font-family: 'Georgia', serif;
-	background-color:rgba(255,255,255,0.4);
-	font-size: 1.2em;
-	line-height: 1.5em;
-	color: #474747;
-	padding-top: 4em;
-	padding-bottom: 3em;
-	padding-left: 5em;
-	padding-right: 5em;
-	margin-left: 10em;
-	margin-right: 10em;
-	margin-bottom: 3em;
+	font-family: 'Georgia-L', serif;
+	padding-top: 2vw;
 }
