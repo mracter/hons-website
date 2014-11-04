@@ -1,30 +1,30 @@
 @font-face {
     font-family: Georgia-R;
-    src: url(Georgia.ttf);
+    src: url(fonts/Georgia.ttf);
 }
 
 @font-face {
     font-family: Georgia-L;
-    src: url(Georgia-L.ttf);
+    src: url(fonts/Georgia-L.ttf);
 }
 
 @font-face {
     font-family: CodePro-R;
-    src: url(CodePro-R.ttf);
+    src: url(fonts/CodePro-R.ttf);
 }
 
 @font-face {
     font-family: CodePro-L;
-    src: url(CodePro-L.ttf);
+    src: url(fonts/CodePro-L.ttf);
 }
 
 @font-face {
     font-family: Helvetica-UL;
-    src: url(Helvetica-UL.otf);
+    src: url(fonts/Helvetica-UltraLight.otf);
 }
 
 body {
-	background-image: url('blue-bg.jpg');
+	background-image: url('img/blue-bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
     background-position: center; 
@@ -150,7 +150,6 @@ body.about a.about:link,
 body.alex a.alex:link,
 body.mary a.mary:link,
 body.jamie a.jamie:link,
-body.demo a.demo:link,
 body.download a.download:link {
 	color: #FFF68F; 
 }
