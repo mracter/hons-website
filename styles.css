@@ -24,7 +24,7 @@
 }
 
 body {
-	background-image: url('img/blue-bg.jpg');
+	background-image: url('img/squares-bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
     background-position: center; 
@@ -37,7 +37,7 @@ body {
 footer {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	font-size: 10px;
+	font-size: 0.8vw;
     height: 20px;
     text-align: right;
 	padding-bottom:0px;
@@ -216,12 +216,12 @@ section.header {
 }
 
 section.body {
-	background-color:rgba(255,255,255,0.4);
+	background-color:rgba(255,255,255,0.9);
 	font-size: 1.2vw;
 	line-height: 1.5vw;
 	color: #474747;
 	padding-top: 2vw;
-	padding-bottom: 3vw;
+	padding-bottom: 5vw;
 	padding-left: 5vw;
 	padding-right: 5vw;
 	margin-top: 5vw;
@@ -243,12 +243,46 @@ article.body {
 	padding-top: 2vw;
 }
 
+figure.flowchart {
+	float: right;
+	width: 15%;
+	text-align: left;
+}
+
+figure.bargraph {
+	text-align: left;
+	width: 40%;
+}
+
+figure.image {
+	width: 60%;
+}
+
+figcaption.image,
+caption.table {
+	font-family: Arial, sans-serif;
+	font-size: 0.8vw;
+	text-align: left;
+	padding-bottom: 0.5vw;
+	padding-top: 0.5vw;
+	background-color:rgba(255,255,255,0);
+}
+
+img.bargraph {
+	width: 90%;
+	height: 90%
+}
+
+/* soz - table shit goes here */
+.datagrid table { border-collapse: collapse; text-align: left; width: 100%; border: 1px solid #8C8C8C;} .datagrid {font: normal 12px/150% Arial, sans-serif; background-color:#FFFFFF); overflow: hidden;  width: 50%; float: right;}.datagrid table td, .datagrid table th { padding: 3px 10px; }.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #333333), color-stop(1, #333333) );background:-moz-linear-gradient( center top, #333333 5%, #333333 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#333333');background-color:#333333; color:#FFFFFF; font-size: 15px; font-weight: bold; border-left: 1px solid #A3A3A3; } .datagrid table thead th:first-child { border: none; }.datagrid table tbody td { background: #FFFFFF; color: #7D7D7D; border-left: 1px solid #DBDBDB;font-size: 12px;font-weight: normal; }.datagrid table tbody .alt td { background: #EBEBEB; color: #7D7D7D; }.datagrid table tbody td:first-child { border-left: none; }.datagrid table tbody tr:last-child td { border-bottom: none; }
+
 #figures {
   text-align: center;
 }
 
 figure {
   display: inline-block;
+  width: 60%;
 }
 
 .detailImage {
@@ -256,9 +290,11 @@ figure {
 }
 
 #results {
-  text-align: center;
+  text-align: left;
+  
 }
 
 .graphImage {
-  width: 60%;
+  width: 80%;
 }
+
