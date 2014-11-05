@@ -107,15 +107,23 @@ nav ul menu li {
 	text-decoration: none;
 }
 
-nav ul li a:hover { 
-  color: #FFF68F;
-}
-
-a:hover, a:visited, a:link {
+.navbar {
     text-decoration: none;
     color: white;
 }
 
+.navbar:hover {
+    color: #FFF68F;
+}
+
+.text-link {
+    text-decoration: none;
+    color: #03A89E;
+}
+
+.text-link:hover {
+    color: #008080;
+}
 
 nav ul li a {
 	display:inline; 
@@ -146,30 +154,25 @@ nav ul li ul li a{
     text-decoration: none;
 }
 
-body.about a.about:link,
-body.alex a.alex:link,
-body.mary a.mary:link,
-body.jamie a.jamie:link,
-body.download a.download:link {
-	color: #FFF68F; 
-}
-
 h2.sans {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 5vw;
+    text-transform: uppercase;
 }
 
 h2.sans-light {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 3.5vw;
+    text-transform: uppercase;
 }
 
 h3.sans {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 2vw;
+    text-transform: uppercase;
 }
 
 h3.sans-light {
@@ -177,26 +180,31 @@ h3.sans-light {
 	font-weight: 300;
 	font-size: 1.5vw;
 	line-height: 1.5vw;
+    text-transform: uppercase;
 }
 
 h2.serif {
 	font-family: 'Georgia-R', serif;
 	font-size: 5vw;
+    text-transform: uppercase;
 }
 
 h2.serif-light {
 	font-family: 'Georgia-L', serif;
 	font-size: 5vw;
+    text-transform: uppercase;
 }
 
 h3.serif {
 	font-family: 'Georgia-R', serif;
 	font-size: 2vw;
+    text-transform: uppercase;
 }
 
 h3.serif-light {
 	font-family: 'Georgia-L', serif;
 	font-size: 2vw;
+    text-transform: uppercase;
 }
 
 section {
@@ -225,7 +233,7 @@ section.body {
 article.header {
 	color:  #171717;
 	text-align: center;
-	line-height: 0.5vw;
+	line-height: 3.5vw;
 	padding-left: 2vw;
 	padding-right: 2vw;
 }

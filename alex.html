@@ -4,7 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 <script src="scripts/elements.js"></script>
-<title>project | ALEXANDER BORYSOV </title>
+<title>project | Alexander Borysov </title>
 <meta charset="utf-8">
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
@@ -19,20 +19,36 @@
 
 <section class="body">
 <article class="header">
-	<h2 class="sans-light">EXPERIMENT 1:</h2>
-	<h3 class="sans-light">MINIMISING MORPHOLOGIES NEEDED TO EVOLVE CO-OPERATION</h3>
+	<h2 class="sans-light">Minimising Morphologies Needed to Evolve Co-operation</h3>
 </article>
 
 <article class="body">
+    <p>The research goal in my project was to find the minimal agent sensor configuration (morphology) that was able to evolve effective co-operation for the foraging task. This is a task where agents are required to collect square resources from an environment, and bring them back to the target area. We developed three variants of this task with each one requiring more cooperation to be effective; this was done by varying the ratios of three different box sizes, with each one requiring more agents pushing simultaneously to move it.</p>
+    <p>8 morphologies were tested in this project. The sensors used were chosen to be relatively realistic. Specifically, the sensors types tested were the ultrasonic sensor, and the typed proximity sensor:</p>
+    <div style="width:100%;">
+        <div style="float: left; width: 40%;">
+            <ul>
+                <li>Ultrasonic sensor: A simple high-range wide-angle proximity sensor that uses ultrasonic waves to detect the distance to the closest object.</li>
 
-	<p>The aim is to find the minimal agent sensor configuration (morphology) that still results in
-	the evolution of effective co-operation. 8 morphologies were designed and tested by
-	evolving controllers using Genetic Programming on a series of 3 variants of the foraging
-	task.</p>
-	
-	<p><b>Experiment results showed that a morphology consisting of 3 ultrasonic sensors is
-the simplest and most effective morphology in our test tasks, followed closely by 8
-ultrasonic sensors.</b></p>
+                <li>Typed proximity sensors: A fairly low-range low-FOV sensor that can detect the distance and type of the nearest object.</li>
+            </ul>
+        </div>
+        <div style="margin-left: 45%;padding-top: 20px">
+            <img src="img/sensor-type-legend.svg" width="80%"/>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <p>Additionally, two more sensors were used in every morphology:</p>
+    <ul>
+        <li>Bottom proximity sensor: a sensor on the bottom of the agent that can detect the specially-painted ground, and thereby whether it is in the target area or not.</li>
+        <li>Pickup sensor: a small sensor on the front of the agent that detects when a resource is in the grippers, and activates a heuristic to pick up the resource and bring it back to the target area.</li>
+    </ul></p>
+    <p>The morphologies tested were as follows:</p>
+    <img src="img/morphology-array.svg" width="100%"/>
+    <br/>
+	<p>The experiment results showed that a morphology consisting of 3 ultrasonic sensors (3U) is the simplest and most effective morphology in our test tasks, followed closely by 8 ultrasonic sensors.</p>
+    <img src="img/alex-results.svg" width="100%"/>
 
 </article>
 </section>

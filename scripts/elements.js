@@ -6,11 +6,11 @@ function getHeader() {
 		<ul>\
 		<menu>\
 		<li class="navleft">ALEXANDER BORYSOV<br></br>JAMIE HEWLAND<br></br>MARY HSU</li>\
-		  <li><a href="index.html" class="about">ABOUT</a></li>\
-		  <li><a href="alex.html" class="alex">ALEX</a></li>\
-		  <li><a href="mary.html" class="mary">MARY</a></li>\
-		  <li><a href="jamie.html" class="jamie">JAMIE</a></li>\
-		  <li><a href="download.html" class="download">DOWNLOAD</a></li>\
+		  <li><a href="index.html" class="about navbar">ABOUT</a></li>\
+		  <li><a href="alex.html" class="navbar alex">ALEX</a></li>\
+		  <li><a href="mary.html" class="navbar mary">MARY</a></li>\
+		  <li><a href="jamie.html" class="navbar jamie">JAMIE</a></li>\
+		  <li><a href="download.html" class="navbar download">DOWNLOAD</a></li>\
 		</menu>\
 		</ul>\
 		</nav>\
