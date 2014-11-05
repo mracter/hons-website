@@ -4,7 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 <script src="scripts/elements.js"></script>
-<title>project | Alexander Borysov </title>
+<title>Honours Project 2014 | Alexander Borysov </title>
 <meta charset="utf-8">
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
@@ -24,7 +24,7 @@
 
 <article class="body">
     <p>The research goal in my project was to find the minimal agent sensor configuration (morphology) that was able to evolve effective co-operation for the foraging task. This is a task where agents are required to collect square resources from an environment, and bring them back to the target area. We developed three variants of this task with each one requiring more cooperation to be effective; this was done by varying the ratios of three different box sizes, with each one requiring more agents pushing simultaneously to move it.</p>
-    <p>8 morphologies were tested in this project. The sensors used were chosen to be relatively realistic. Specifically, the sensors types tested were the ultrasonic sensor, and the typed proximity sensor:</p>
+    <p>8 morphologies were tested in this project. Robot controllers were evolved using Genetic Programming (GP). The sensors used were chosen to be relatively realistic. Specifically, the sensors types varied between the different morphologies were the ultrasonic sensor, and the typed proximity sensor:</p>
     <div style="width:100%;">
         <div style="float: left; width: 40%;">
             <ul>
@@ -47,7 +47,7 @@
     <p>The morphologies tested were as follows:</p>
     <img src="img/morphology-array.svg" width="100%"/>
     <br/>
-	<p>The experiment results showed that a morphology consisting of 3 ultrasonic sensors (3U) is the simplest and most effective morphology in our test tasks, followed closely by 8 ultrasonic sensors.</p>
+    <p><b>The experiment results showed that a morphology consisting of 3 ultrasonic sensors (3U) is the simplest and most effective morphology in our test tasks, followed closely by 8 ultrasonic sensors. Additionally: the typed sensors seemed to severely underperform, and in most cases the addition of more sensors resulted in a <i>decrease</i> in performance, potentially due to the increase in the GP state space.</b></p>
     <img src="img/alex-results.svg" width="100%"/>
 
 </article>
